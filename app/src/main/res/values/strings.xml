@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DSC Members VVCE</string>
+    <string name="explore">Explore</string>
+    <string name="android_chapter">DSC Android Chapter</string>
+    <string name="web_chapter">DSC Web Chapter</string>
+    <string name="ml_chapter">DSC ML/AI Chapter</string>
+    <string name="cloud_chapter">DSC Cloud Chapter</string>
+</resources>

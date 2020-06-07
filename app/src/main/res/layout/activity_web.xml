@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MlActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Relative Layout for each member-->
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m1_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/web_m1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m1_image"
+                android:layout_toRightOf="@id/web_m1_image"
+                android:text="Web Member 1"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m1_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m1_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m1_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m2_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/girl" />
+
+            <TextView
+                android:id="@+id/web_m2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m2_image"
+                android:layout_toRightOf="@id/web_m2_image"
+                android:text="Web Member 2"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m2_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m2_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m2_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m3_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/web_m3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m3_image"
+                android:layout_toRightOf="@id/web_m3_image"
+                android:text="Web Member 3"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m3_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m3_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m3_image"
+                android:text="6th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m4_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/girl" />
+
+            <TextView
+                android:id="@+id/web_m4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m4_image"
+                android:layout_toRightOf="@id/web_m4_image"
+                android:text="Web Member 4"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m4_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m4_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m4_image"
+                android:text="6th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m5_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/web_m5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m5_image"
+                android:layout_toRightOf="@id/web_m5_image"
+                android:text="Web Member 5"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m5_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m5_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m5_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m6_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/girl" />
+
+            <TextView
+                android:id="@+id/web_m6_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m6_image"
+                android:layout_toRightOf="@id/web_m6_image"
+                android:text="Web Member 6"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m6_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m6_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m6_image"
+                android:text="2nd Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m7_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/web_m7_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m7_image"
+                android:layout_toRightOf="@id/web_m7_image"
+                android:text="Web Member 7"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m7_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m7_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m7_image"
+                android:text="2nd Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m8_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/girl" />
+
+            <TextView
+                android:id="@+id/web_m8_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m8_image"
+                android:layout_toRightOf="@id/web_m8_image"
+                android:text="Web Member 8"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m8_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m8_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m8_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m9_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:id="@+id/web_m9_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m9_image"
+                android:layout_toRightOf="@id/web_m9_image"
+                android:text="Web Member 9"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m9_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m9_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m9_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chapter_web_m10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/web_m10_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/girl" />
+
+            <TextView
+                android:id="@+id/web_m10_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/web_m10_image"
+                android:layout_toRightOf="@id/web_m10_image"
+                android:text="Web Member 10"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/web_m10_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/web_m10_name"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/web_m10_image"
+                android:text="4th Sem"
+                android:textColor="@android:color/black" />
+            "
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

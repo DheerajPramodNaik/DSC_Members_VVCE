@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".DisplayActivity">
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/close_image" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="35dp"
+        android:background="@drawable/customborder">
+
+
+        <TextView
+            android:id="@+id/name_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:textColor="@android:color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/sem_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_display"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/call_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/explorebuttoncolor"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Call"
+            android:textColor="#ffff" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

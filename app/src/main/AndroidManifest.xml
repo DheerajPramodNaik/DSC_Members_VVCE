@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dscmembersvvce">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".DisplayActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".ChaptersActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CloudActivity"
+            android:label="@string/cloud_chapter"
+            android:parentActivityName=".ChaptersActivity" />
+        <activity
+            android:name=".MlActivity"
+            android:label="@string/ml_chapter"
+            android:parentActivityName=".ChaptersActivity" />
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/web_chapter"
+            android:parentActivityName=".ChaptersActivity" />
+        <activity
+            android:name=".AndroidActivity"
+            android:label="@string/android_chapter"
+            android:parentActivityName=".ChaptersActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
